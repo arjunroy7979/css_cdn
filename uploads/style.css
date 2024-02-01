@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200;300;400;500;600&family=Lora:ital@0;1&family=Montserrat:wght@300;500&family=Oxygen:wght@700&family=Quicksand:wght@300;400;500;600;700&family=Roboto&family=Ropa+Sans&display=swap");
+
+* {
+    font-family: 'Philosopher-Regular';
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main {
+    margin-top: 5.5rem;
+}
+
+.mainchild {
+    background: linear-gradient(120deg, #1A2421, #0B6623, #1A2421);
+}
+
+.main-img-div {
+    padding: 2.5rem;
+    width: 50%;
+}
+
+.about-img {
+    height: 29rem;
+    width: 95%;
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+    margin-left: 0rem;
+}
+
+.image-box-lines {
+    border: 2px solid #cea83f;
+    height: 27rem;
+    width: 33.5rem;
+    margin-left: 1.1rem;
+    position: relative;
+    top: 1rem;
+}
+
+.image-box-lines-1 {
+    border: 2px solid #cea83f;
+    height: 25.8rem;
+    width: 32.3rem;
+    margin-left: 0.5rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.main-div-one {
+    padding: 2.5rem;
+    width: 50%;
+}
+
+.hr {
+    width: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.text-1 {
+    padding: 2px;
+}
+
+.text-2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.text-3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.text-4 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.Brochure {
+    background-color: #5c4507;
+    width: 149px;
+    rotate: -90deg;
+    margin-left: auto;
+    position: fixed;
+    top: 20rem;
+    padding: 8px;
+    font-weight: 200;
+    color: #fff;
+    left: 78.3rem;
+}
+
+.work-img {
+    height: 10rem;
+    width: 11rem;
+    background-image: url('../images/work.png');
+    background-size: cover;
+    position: relative;
+    top: -20rem;
+    left: 39rem;
+}
+.img-popup{
+    margin-left: 0.5rem;
+    padding: 0.2rem;
+    background: #133a1f;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.main-2nd {
+    margin-top: -10rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.main-2nd-img {
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+    height: 24rem;
+    width: 87%;
+    border-radius: 1rem;
+}
+
+.btn {
+    background: #cea83f !important;
+    color: #fff !important;
+}
+
+.btn:hover {
+    background: orange !important;
+    color: #fff !important;
+}
+
+.main-3rd {
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.main-3rd-img {
+    background-image: url('../images/about2.jpg');
+    background-size: cover;
+    height: 24rem;
+    width: 87%;
+    border-radius: 1rem;
+}
+
+.main-4th {
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.main-4th-img {
+    background-image: url('../images/about3.jpg');
+    background-size: cover;
+    height: 24rem;
+    width: 87%;
+    border-radius: 1rem;
+}
+
+.main-5th {
+    margin-top: 0rem;
+    background-color: #6e5e312b;
+    padding: 2rem;
+}
+
+.carousel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .carousel-cell {
+        width: 70%;
+        height: 25rem;
+        background-color: #fff;
+    }
+
+    /* cell number */
+    .carousel-cell:before {
+        display: block;
+    }
+
+    .w3-image {
+        height: 21rem;
+        width: 100%;
+        margin: 2rem;
+        background-size: cover;
+    }
+}
+
+.main-6th {
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.main-6th-img {
+    background-image: url('../images/map.jpg');
+    background-size: cover;
+    height: 23rem;
+    width: 96%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.main-7th {
+    margin-top: 0rem;
+    background-color: #e7e8ea;
+    padding: 2rem;
+}
+
+.main-8th {
+    margin-top: 0rem;
+    background-color: #133a1f;
+    padding: 2rem;
+}
+
+.main-9th {
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.main-10th {
+    box-shadow: 0 0 3px 1px rgb(0 0 0 / 70%);
+    position: fixed;
+    bottom: 0;
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+.img-size {
+    height: 3rem;
+}
+
+.dev-img-size {
+    height: 120px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 1px 20px;
+    box-sizing: border-box;
+}
+
+
+
+/* respomsive media query */
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .mainchild {
+        flex-direction: column-reverse;
+        background: linear-gradient(120deg, #1A2421, #0B6623, #1A2421);
+    }
+
+    .main-img-div {
+        padding: 0.7rem;
+        width: 100%;
+    }
+
+    .main-div-one {
+        padding: 0.7rem;
+        width: 100%;
+    }
+
+    .about-img {
+        height: 15rem;
+        width: 100%;
+        background-image: url('../images/about.jpg');
+        background-size: cover;
+        margin-left: 0rem;
+    }
+
+    .image-box-lines {
+        border: 1px solid #cea83f;
+        height: 13.1rem;
+        width: 26.6rem;
+        margin-left: 1.1rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .image-box-lines-1 {
+        border: 1px solid #cea83f;
+        height: 12rem;
+        width: 25.5rem;
+        margin-left: 0.5rem;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    .Brochure {
+        background-color: #5c4507;
+        width: 149px;
+        rotate: -90deg;
+        margin-left: auto;
+        position: fixed;
+        top: 20rem;
+        padding: 8px;
+        font-weight: 200;
+        color: #fff;
+        left: 24.2rem;
+    }
+
+    .work-img {
+        display: none;
+    }
+
+    .main-2nd {
+        margin-top: 0rem;
+    }
+
+    .main-2nd-img,
+    .main-3rd-img,
+    .main-4th-img,
+    .main-6th-img {
+        height: 19rem;
+        width: 100%;
+        margin-top: 3px;
+    }
+
+    .carousel {
+        .carousel-cell {
+            width: 70%;
+            height: 15rem;
+            background-color: #fff;
+        }
+
+        /* cell number */
+        .carousel-cell:before {
+            display: block;
+        }
+
+        .w3-image {
+            height: 11rem;
+            width: 100%;
+            margin: 2rem;
+            background-size: cover;
+        }
+    }
+
+}
